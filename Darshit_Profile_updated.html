@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<!-- saved from url=(0105)file:///D:/complete%205%20Days%20Front%20End%20Web%20Development%20Program/myProfile/Darshit_Profile.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshit</title>
+    <link href="./Darshit_Profile_updated_files/css2" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+        .navtxt {
+            color: #ff5050;
+            font-weight: 900;
+            font-size: 1.5em;
+        }
+
+        .navlink {
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .navlink:hover {
+            color: #ff5050;
+        }
+
+        .navbutton {
+            background-color: orangered;
+            text-align: center;
+            cursor: pointer;
+            letter-spacing: 1.5px;
+            font-weight: 500;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .navbutton:hover {
+            color: white;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            padding: 6px;
+        }
+
+        nav ul li {
+            margin: 0px 10px;
+        }
+
+        
+
+        #bio img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+
+        #bio h3 {
+            font-weight: bolder;
+            letter-spacing: 1.5px;
+            font-size: 2.5em;
+        }
+
+        #home div h3 {
+            font-weight: 300;
+            letter-spacing: 1.5px;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            height: 300px;
+        }
+
+        #portfolio {
+            background: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #portfolio div {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px 0;
+            height: 200px;
+            width: 100%;
+        }
+
+        #portfolio div article {
+            background-color: white;
+            color: black;
+            height: 150px;
+            width: 250px;
+            font-size: 0.9em;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: 0 0 15px;
+            text-align: center;
+            border-radius: 10px;
+            /* margin-top: 25px;
+        margin-bottom: 30px;
+        padding: 20pxs; */
+        }
+
+        hr {
+            width: 400px;
+        }
+
+        progress[value] {
+            height: 10px;
+            width: 380px;
+            -webkit-appearance: none;
+        }
+
+        progress [value]::-webkit-progress-bar {
+            background-color: grey;
+            border-radius: 2px;
+            box-shadow: 0.2px 5px rgb(0, 0, 0, 0.25 inset);
+        }
+
+        ::-webkit-progress-value {
+            background-color: #ff5050;
+        }
+
+        #contact {
+            background-color: black;
+            color: white;
+        }
+
+        .input {
+            line-height: 2em;
+            width: 380px;
+            border-radius: 3px;
+            border-color: black;
+            margin-top: 20px;
+
+        }
+
+        #home {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #bio {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            height: 600px;
+            justify-content: right;
+            margin: 50px 100px;
+            font-size: 0.9em;
+        }
+
+        #skills {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+        }
+
+        #skills-container {
+            display: flex;
+            justify-content: space-around;
+            width: 1250px;
+
+        }
+
+        #skills ul li {
+            list-style: none;
+            padding: 2.5px;
+        }
+
+        #skills-container div h4 {
+            text-align: center;
+        }
+
+
+
+        #contact div h3 {
+            text-align: center;
+            font-size: 1.2em;
+            letter-spacing: 2px;
+            padding: 20px;
+
+
+        }
+
+        #contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="navtxt">MY PROFILE</li>
+            <ul>
+                <li><a href="file:///D:/complete%205%20Days%20Front%20End%20Web%20Development%20Program/myProfile/Darshit_Profile.html#home" class="navlink">HOME</a></li>
+                <li><a href="file:///D:/complete%205%20Days%20Front%20End%20Web%20Development%20Program/myProfile/Darshit_Profile.html#bio" class="navlink">BIO</a></li>
+                <li><a href="file:///D:/complete%205%20Days%20Front%20End%20Web%20Development%20Program/myProfile/Darshit_Profile.html#portfolio" class="navlink">PORTFOLIO</a></li>
+                <li><a href="file:///D:/complete%205%20Days%20Front%20End%20Web%20Development%20Program/myProfile/Darshit_Profile.html#skills" class="navlink">SKILLS</a></li>
+                <li><a href="file:///D:/complete%205%20Days%20Front%20End%20Web%20Development%20Program/myProfile/Darshit_Profile.html#contact" class="navlink navbutton">CONTACT</a></li>
+            </ul>
+        </ul>
+    </nav>
+    <header id="home">
+        <div>
+            <h3>I BELIEVE IN</h3>
+            <h1>EAT(); SLEEP(); CODE(); REPEAT();</h1>
+        </div>
+    </header>
+    <section id="bio">
+        <img src="./Darshit_Profile_updated_files/profile picture.jpg" alt="image">
+        <div>
+            <h3>Darshit Sheth</h3>
+            <article>
+                <p>
+                    I am a passionate engineer with a degree in Mechnical Engineeing.My
+                    first experience with the code was at my higher eductation when we
+                    had an computer science as the subject.also i am from the degign
+                    part in domain field so thats why the excitement of having power to
+                    structure pages on my own sounded amazingand thats when i decieded
+                    to shitft towards Web developement
+                </p>
+                <br>
+                <p>
+                    Recently, i have taken up a Front End Web Development Program with
+                    the FACEPREP. I have Knowledge of HTML, CSS, and JavaScript, C++,
+                    basics of the C and Data Structures respectively. Team- Work,
+                    Detailed oriented , Adaptibilit are my strenghts. <br><br>
+                </p>
+                <p>
+                    Aiming to build a long-term career with a progressive and
+                    professionally managed organization which will provide me a platform
+                    to update my knowledge and skills, where I get a competitive,
+                    challenging, and rewarding environment. <br><br>
+                </p>
+                <a href="file:///D:/complete%205%20Days%20Front%20End%20Web%20Development%20Program/myProfile/Darshit_Profile.html#" class="navbutton"> Download My Resume</a>
+            </article>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h3 style="font-size: 1.9em">PORTFOLIO</h3>
+        <br>
+        <p>Some of my projects so far</p>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <article>
+                <img src="./Darshit_Profile_updated_files/Coding-icon.svg" alt="image">
+                <h4>PERSONAL BLOG</h4>
+                <p>A blog where i pen my thoughts on programming.</p>
+            </article>
+
+            <article>
+                <img src="./Darshit_Profile_updated_files/Coding-icon.svg" alt="image">
+                <h4>TIC TAC TOE</h4>
+                <p>Complete TIC TAC TOE game with GUI using Java.</p>
+            </article>
+
+            <article>
+                <img src="./Darshit_Profile_updated_files/Coding-icon.svg" alt="image">
+                <h4>TIME TABLE GENERATOR</h4>
+                <p>A web application for automatic time table generation.</p>
+            </article>
+
+        </div>
+
+
+    </section>
+    <section id="skills">
+        <h3 style="font-size: 1.5em; letter-spacing: 2px;">SKILLS</h3>
+        <div id="skills-container">
+            <div>
+                <h4>TECHNICAL SKILLS</h4>
+                <div>
+                    <ul>
+                        <li>HTML</li>
+                        <li>
+                            <progress max="100" value="70"></progress>
+                        </li>
+                        <li>CSS</li>
+                        <li>
+                            <progress max="100" value="85"></progress>
+                        </li>
+                        <li>JavaScript</li>
+                        <li>
+                            <progress max="100" value="75"></progress>
+                        </li>
+                        <li>CREO / Pro-e</li>
+                        <li>
+                            <progress max="100" value="90"></progress>
+                        </li>
+                        <li>Ansys meshing and Analysis Software</li>
+                        <li>
+                            <progress max="100" value="80"></progress>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div>
+                <h4>LANGUAGES</h4>
+                <div>
+                    <ul>
+                        <li>ENGLISH</li>
+                        <li>
+                            <progress max="100" value="90"></progress>
+                        </li>
+                        <li>HINDI</li>
+                        <li>
+                            <progress max="100" value="90"></progress>
+                        </li>
+                        <li>GUJARATI</li>
+                        <li>
+                            <progress max="100" value="90"></progress>
+                        </li>
+                        <li>MARATHI</li>
+                        <li>
+                            <progress max="100" value="90"></progress>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+    <section id="contact">
+        <div>
+            <h3>CONTACT</h3>
+            <form action="file:///D:/complete%205%20Days%20Front%20End%20Web%20Development%20Program/myProfile/Darshit_Profile.html">
+                <input class="input" type="text" name="" placeholder="ENTER YOUR NAME">
+                <input class="input" type="text" name="" placeholder="ENTER YOUR EMAIL">
+                <input class="input" type="text" name="" placeholder="ENTER YOUR MESSAGE"><br>
+                <button type="submit" class="navbutton">SEND MESSAGE</button>
+            </form>
+        </div>
+    </section>
+
+
+</body></html>
